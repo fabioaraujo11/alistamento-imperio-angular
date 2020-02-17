@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class OfficerListComponent implements OnInit {
 
   officers: any = [];
-  url = 'http://localhost:8080/funcionario';
+  url = 'https://stark-gorge-35941.herokuapp.com/funcionario';
 
   constructor(private http: HttpClient) {
     http

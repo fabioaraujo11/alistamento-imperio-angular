@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 export class StormtrooperListComponent implements OnInit {
   
   stormtroopers: any = [];
-  url = 'http://localhost:8080/stormtrooper';
+  url = 'https://stark-gorge-35941.herokuapp.com/stormtrooper';
 
   constructor(private http: HttpClient) {
     http

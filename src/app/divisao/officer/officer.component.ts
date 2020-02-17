@@ -22,8 +22,8 @@ export class OfficerComponent implements OnInit {
   officers: any = [];
   setores: any = [];
 
-  url = 'http://localhost:8080/funcionario';
-  urlSetor = 'http://localhost:8080/setor';
+  url = 'https://stark-gorge-35941.herokuapp.com/funcionario';
+  urlSetor = 'https://stark-gorge-35941.herokuapp.com/setor';
 
   profileForm = new FormGroup({
     idGalaxy: new FormControl(''),

@@ -23,8 +23,8 @@ export class StormtrooperComponent implements OnInit {
   stormtroopers: any = [];
   pelotoes: any = [];
 
-  url = 'http://localhost:8080/stormtrooper';
-  urlPelotao = 'http://localhost:8080/pelotao';
+  url = 'https://stark-gorge-35941.herokuapp.com/stormtrooper';
+  urlPelotao = 'https://stark-gorge-35941.herokuapp.com/pelotao';
 
   profileForm = new FormGroup({
     idGalaxy: new FormControl(''),
